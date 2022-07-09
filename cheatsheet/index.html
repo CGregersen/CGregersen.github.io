@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Position and Display Cheatsheet</title>
+        <link href="./styles.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>CSS Position & Display<br>Cheatsheet</h1>
+        <img src="./codingcomputer.jpg.jpg" alt="Code on a computer sitting on a desk"/>
+
+        <!--Postion table-->
+        <h2>Position</h2>
+        <p class="discription">Positioning allows a user options on where to set elements on a webpage.</p>
+        <table>
+            <thead>
+                <tr>
+                  <th colspan="2">Value</th>
+                  <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>Static</td>
+                  <td>element {<br>position: static; }</td>
+                  <td>The element is positioned according to the normal flow of the document. This is the default value.</td>
+                </tr>
+                <tr>
+                    <td>Relative</td>
+                    <td>element {<br>position: relative; }</td>
+                    <td>The element is placed in it's original positon and offset properties can be used to determine it's actual position.</td>
+                </tr>
+                <tr>
+                    <td>Absolute</td>
+                    <td>element {<br>position: absolute; }</td>
+                    <td>Enables an element to ignore sibing elements and be positioned relative to it's parent element.</td>
+                </tr>
+                <tr>
+                    <td>Fixed</td>
+                    <td>element {<br>position: fixed; }</td>
+                    <td>The element is set to a specific spot regardless of scrolling.</td>
+                </tr>
+                <tr>
+                    <td>Sticky</td>
+                    <td>element {<br>position: sticky; }</td>
+                    <td>The element can scroll to an offset value provided by the user.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Display Table-->
+        <h2>Display</h2>
+        <p class="discription">Determines the display behavior of an element.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Value</th>
+                    <th>Description</th>
+                  </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Block</td>
+                    <td>container {<br>display: block; }</td>
+                    <td>Elements will take up the full width of their container with line breaks before and after. Height and width can be adjusted.</td>
+                </tr>
+                <tr>
+                    <td>Inline</td>
+                    <td>container {<br>display: inline; }</td>
+                    <td>Elements will take up as little space as possible and flow horizonally. Height and width cannot be adjusted.</td>
+                </tr>
+                <tr>
+                    <td>Inline Block</td>
+                    <td>container {<br>display: inline-block; }</td>
+                    <td>Elements appear ext to each other and can have their height and width adjusted.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+    <footer>
+        <p class="footer">Created by Camilla Gregersen<br>July 7, 2022</p>
+    </footer>
+
+</html>

@@ -1,0 +1,62 @@
+h1 {
+    position: absolute;
+    width: 45%;
+    left: 350px;
+    top: 200px;
+    text-align: center;
+    color: white;
+    font-family: Raleway, sans-serif;
+    background-color: cadetblue;
+}
+
+img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: cadetblue;
+    padding-top: 30px;
+}
+
+p.discription {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+table {
+    border: 1px solid;
+    width: 100%;
+}
+
+th {
+    background-color: cadetblue;
+    color: white;
+    padding: 15px;
+}
+
+tr {
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+p.footer {
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: cadetblue;
+    padding-top: 50px;
+}
