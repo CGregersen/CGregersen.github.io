@@ -1,0 +1,166 @@
+* {
+    font-family: 'Monserrat' , sans-serif;
+    text-align: center;
+    background-color: #221f37;
+}
+
+h1 {
+    font-family: 'Monserrat' , sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Monserrat' , sans-serif;
+    font-weight: 200;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid #f2d6bd;
+    background-color: #f2d6bd;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav {
+    background-color: #f2d6bd;
+}
+
+a {
+    font-family: 'Monserrat' , sans-serif;
+    color: #221f37;
+    background-color: #f2d6bd;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a:hover {
+    font-size: 24px;
+}
+
+#hero-container {
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./resources/herobackground.png);
+    background-size: cover;
+}
+
+#logo {
+    height: 500px;
+    width: 570px;
+    float: left;
+}
+
+#about-container {
+    border-top: 20px solid #f2d6bd;
+    border-bottom: 20px solid #f2d6bd;
+    background-color: #f2d6bd;
+}
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f2d6bd;
+}
+
+
+#about-container h1 {
+    color: #221f37;
+    background-color: #f2d6bd;
+}
+
+#about-container p {
+    background-color: #f2d6bd;
+    color: #221f37;
+    font-size: 20px;
+    font-family: 'Monserrat' , sans-serif;
+    font-weight: 200;
+    width: 500px;
+}
+
+#products-container {
+    border-top: 20px solid #221f37;
+    border-bottom: 20px solid #221f37;
+}
+
+#products-container h1, h2 {
+    color: #f2d6bd;
+}
+
+#products-container a {
+    background-color: #221f37;
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-img {
+    height: 300px;
+    width: auto;
+    border: 2px solid #f2d6bd;
+}
+
+#contact-container {
+    border-top: 2px solid #f2d6bd;
+    background-color: #f2d6bd;
+    height: 500px;
+    width: 100%;
+}
+
+#contact-container h1 {
+    background-color: #f2d6bd;
+    color: #221f37;
+    border: 20px solid #f2d6bd;
+}
+
+#contact {
+    display: flex;
+    background-color: #f2d6bd;
+    justify-content: space-around;
+}
+
+#contact img {
+    height: 100px;
+    width: auto;
+    border: 30px solid white;
+}
+
+.contact-box {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+
+.contact-box h2 {
+    background-color: white;
+    color: #221f37;
+    line-height: 2;
+}
+
+footer {
+    color: #f2d6bd;
+}
+
+@media only screen and (max-width: 800px) {
+
+    header a {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header a:hover {
+        font-size: 16px;
+    }
+}
